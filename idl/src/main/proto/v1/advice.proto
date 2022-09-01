@@ -18,5 +18,7 @@ message PageInput {
 }
 
 message AdviceSearchResponse {
-  string role = 1;
+  bool has_next = 1;
+  repeated int32 ids = 2;
+  int32 total_count = 3;
 }
