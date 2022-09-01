@@ -27,6 +27,9 @@ dependencies {
 	implementation("io.github.microutils:kotlin-logging:1.12.5")
 	implementation("ch.qos.logback:logback-classic:1.2.3")
 
+	// elasticsearch
+	implementation("org.springframework.boot:spring-boot-starter-data-elasticsearch")
+
 	implementation(project(":idl"))
 }
 

@@ -1,4 +1,4 @@
-package webflux.es.server.common
+package webflux.es.server.common.config
 
 import com.linecorp.armeria.common.grpc.GrpcSerializationFormats
 import com.linecorp.armeria.server.docs.DocService
