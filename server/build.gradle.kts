@@ -28,7 +28,8 @@ dependencies {
 	implementation("ch.qos.logback:logback-classic:1.2.3")
 
 	// elasticsearch
-	implementation("org.springframework.boot:spring-boot-starter-data-elasticsearch")
+	implementation("org.elasticsearch:elasticsearch:6.8.1")
+	implementation("org.elasticsearch.client:elasticsearch-rest-client:6.8.1")
 
 	implementation(project(":idl"))
 }
